@@ -1,8 +1,8 @@
 #GXToastDemo
 
 ## How To Use
-- First copy GXToast.h and GXToast.m to your project,
-- import GXToast.h to file if you want to use it
+- Copy GXToast.h and GXToast.m to your project,
+- Import GXToast.h to file if you want to use it
 - code like this:
  ```objc
 [GXToast showText:@"默认显示"];
