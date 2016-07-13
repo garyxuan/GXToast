@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxC-RQ-2JX">
+                                <rect key="frame" x="203" y="135" width="130" height="30"/>
+                                <state key="normal" title="中间显示+默认时间"/>
+                                <connections>
+                                    <action selector="defaultShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTs-H7-9Nd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOF-ur-snA">
+                                <rect key="frame" x="500" y="342" width="50" height="30"/>
+                                <state key="normal" title="bottom"/>
+                                <connections>
+                                    <action selector="bottomShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yaw-cU-LE7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeT-Y0-Tjv">
+                                <rect key="frame" x="246" y="342" width="44" height="30"/>
+                                <state key="normal" title="center"/>
+                                <connections>
+                                    <action selector="centerShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6pc-ui-Djb"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="位置可选+时间自定义" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CEu-Ps-r8k">
+                                <rect key="frame" x="153" y="271" width="247" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="St3-zw-RXo">
+                                <rect key="frame" x="70" y="397" width="71" height="30"/>
+                                <state key="normal" title="100偏移量"/>
+                                <connections>
+                                    <action selector="showTopWithOffset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="38G-lH-0fA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiw-ZD-tB6">
+                                <rect key="frame" x="50" y="342" width="30" height="30"/>
+                                <state key="normal" title="top"/>
+                                <connections>
+                                    <action selector="topShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tAH-Lx-sgS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c4-sW-Stf">
+                                <rect key="frame" x="477" y="397" width="73" height="30"/>
+                                <state key="normal" title="200偏移量"/>
+                                <connections>
+                                    <action selector="showBottomWithOffset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oUD-4R-web"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fiw-ZD-tB6" firstAttribute="top" secondItem="CEu-Ps-r8k" secondAttribute="bottom" constant="41" id="3sW-3R-OGc"/>
+                            <constraint firstItem="St3-zw-RXo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="AOQ-I2-9gp"/>
+                            <constraint firstAttribute="trailing" secondItem="rOF-ur-snA" secondAttribute="trailing" constant="50" id="APh-bV-tz2"/>
+                            <constraint firstItem="fiw-ZD-tB6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="Cum-FT-D4T"/>
+                            <constraint firstItem="AxC-RQ-2JX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D4P-6f-njE"/>
+                            <constraint firstItem="CEu-Ps-r8k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Erz-nH-5wJ"/>
+                            <constraint firstAttribute="trailing" secondItem="1c4-sW-Stf" secondAttribute="trailing" constant="50" id="Idf-L8-178"/>
+                            <constraint firstItem="St3-zw-RXo" firstAttribute="leading" secondItem="fiw-ZD-tB6" secondAttribute="leading" id="Itr-pB-OE8"/>
+                            <constraint firstItem="St3-zw-RXo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="377" id="MTt-qi-4HV"/>
+                            <constraint firstItem="1c4-sW-Stf" firstAttribute="centerX" secondItem="rOF-ur-snA" secondAttribute="centerX" id="Qx2-Wu-obD"/>
+                            <constraint firstItem="St3-zw-RXo" firstAttribute="top" secondItem="fiw-ZD-tB6" secondAttribute="bottom" constant="25" id="ZDe-sz-KIb"/>
+                            <constraint firstItem="1c4-sW-Stf" firstAttribute="leading" secondItem="rOF-ur-snA" secondAttribute="leading" id="c4z-B0-4aQ"/>
+                            <constraint firstItem="rOF-ur-snA" firstAttribute="top" secondItem="CEu-Ps-r8k" secondAttribute="bottom" constant="41" id="dJo-95-FXG"/>
+                            <constraint firstItem="WeT-Y0-Tjv" firstAttribute="top" secondItem="CEu-Ps-r8k" secondAttribute="bottom" constant="41" id="eDM-xp-LDR"/>
+                            <constraint firstItem="WeT-Y0-Tjv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iJb-0O-XQ2"/>
+                            <constraint firstItem="CEu-Ps-r8k" firstAttribute="top" secondItem="AxC-RQ-2JX" secondAttribute="bottom" constant="106" id="lDS-er-prf"/>
+                            <constraint firstItem="1c4-sW-Stf" firstAttribute="top" secondItem="rOF-ur-snA" secondAttribute="bottom" constant="25" id="nUz-wf-zAm"/>
+                            <constraint firstItem="1c4-sW-Stf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="377" id="qEX-G6-Mud"/>
+                            <constraint firstItem="AxC-RQ-2JX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="115" id="rMw-8p-Zdb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Itr-pB-OE8"/>
+                                <exclude reference="ZDe-sz-KIb"/>
+                                <exclude reference="Qx2-Wu-obD"/>
+                                <exclude reference="c4z-B0-4aQ"/>
+                                <exclude reference="nUz-wf-zAm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="319" y="361"/>
+        </scene>
+    </scenes>
+</document>
