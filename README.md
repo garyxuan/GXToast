@@ -1,5 +1,6 @@
 # GXToast
-
+![garyxuan-logo](http://a3.qpic.cn/psb?/V13cefHz22OeKo/zqOQVQhPTW8866VOdMoB37E5*550rDtDUtxy7ZX2WDo!/b/dNoAAAAAAAAA&bo=fQBbAAAAAAADBwQ!&rf=viewer_4)
+------
 ##how to use
 
 >* Copy GXToast.h and GXToast.m to your project,
@@ -12,7 +13,7 @@
 ```
 -------
 
-##contact me
+##contact
 > garyxuan@163.com
 
 
