@@ -13,7 +13,7 @@
 [GXToast showText:@"下面显示" position:GXToastPositionBottom duration:2.0f]; 
 ```
 >* 效果图
-![garyxuan-logo](http://a3.qpic.cn/psb?/V13cefHz22OeKo/W*LVlFID7TKpoms9l1EK.Z6MqlQVddxQSvcm4chtfWM!/b/dI8AAAAAAAAA&bo=gAJyBAAAAAADB9Y!&rf=viewer_4)
+![effect](http://a1.qpic.cn/psb?/V13cefHz22OeKo/yQTg64r6fgTysot2HgXYtCXJaeRIOsEuBXE9rojemDg!/b/dAsBAAAAAAAA&bo=gALAAwAAAAADB2M!&rf=viewer_4)
 -------
 
 ##contact
