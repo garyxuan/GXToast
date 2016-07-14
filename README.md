@@ -10,7 +10,9 @@
 [GXToast showText:@"下面显示+200偏移" position:GXToastPositionBottom offset:200 duration:2.0f]; 
 [GXToast showText:@"下面显示" position:GXToastPositionBottom duration:2.0f]; 
 ```
-##To contact me
+-------
+
+##contact me
 > garyxuan@163.com
 
 
