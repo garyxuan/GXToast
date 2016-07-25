@@ -2,9 +2,12 @@
 ![garyxuan-logo](http://a3.qpic.cn/psb?/V13cefHz22OeKo/zqOQVQhPTW8866VOdMoB37E5*550rDtDUtxy7ZX2WDo!/b/dNoAAAAAAAAA&bo=fQBbAAAAAAADBwQ!&rf=viewer_4)
 ------
 ##Installation
+###Manually:
+#####1.Copy GXToast.h and GXToast.m to your project
+#####2.Add #include "GXToast.h", where you want to use it
+###CocoaPods:
+#####nonsupport
 
-- Copy GXToast.h and GXToast.m to your project,
-- Import GXToast.h to file if you want to use it
 ------
 ##Usage
 ```objc 
