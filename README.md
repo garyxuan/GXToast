@@ -1,10 +1,12 @@
 # GXToast
 ![garyxuan-logo](http://a3.qpic.cn/psb?/V13cefHz22OeKo/zqOQVQhPTW8866VOdMoB37E5*550rDtDUtxy7ZX2WDo!/b/dNoAAAAAAAAA&bo=fQBbAAAAAAADBwQ!&rf=viewer_4)
 ------
-##how to use
+##Installation
 
->* Copy GXToast.h and GXToast.m to your project,
->* Import GXToast.h to file if you want to use it
+- Copy GXToast.h and GXToast.m to your project,
+- Import GXToast.h to file if you want to use it
+------
+##Usage
 ```objc 
 [GXToast showText:@"默认显示"];
 [GXToast showText:@"上面显示" position:GXToastPositionTop duration:2.0f]; 
