@@ -21,7 +21,7 @@
 ![effect](http://a1.qpic.cn/psb?/V13cefHz22OeKo/yQTg64r6fgTysot2HgXYtCXJaeRIOsEuBXE9rojemDg!/b/dAsBAAAAAAAA&bo=gALAAwAAAAADB2M!&rf=viewer_4)
 -------
 
-##contact
+##Contact
 > garyxuan@163.com
 
 
